@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-family: generalFont, sans-serif;
+}
+
+*,*::before,*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+ol {
+  list-style: none;
+}
+
+.root {
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: #C8E4ED;
+  min-height: 100vh;
+  z-index: 2;
+}
+
+.btn-control-panel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0 15px;
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  transition: opacity .2s;
+  .controlBtn {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property: opacity, background;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
