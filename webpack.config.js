@@ -10,7 +10,7 @@ module.exports = {
     script: './src/index.js',
   },
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'index.js',
     assetModuleFilename: 'assets/[hash][ext][query]',
     clean: true,
