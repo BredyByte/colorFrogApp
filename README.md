@@ -1,7 +1,5 @@
 # 🐸🌈 Psychedelic Frog App
 
-### [Is hosted here](https://dvaid0805.github.io/colorFrogApp)
-
 ## 📎 Technology Stack.
 1) Webpack.
 2) Js.
